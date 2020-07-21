@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		841C3AB124C52584004FE4B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C3AB024C52584004FE4B0 /* main.m */; };
+		841C3AB924C525E4004FE4B0 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C3AB824C525E4004FE4B0 /* Father.m */; };
+		841C3ABC24C525F9004FE4B0 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C3ABB24C525F9004FE4B0 /* Son.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		841C3AAD24C52584004FE4B0 /* MsgSendStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MsgSendStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		841C3AB024C52584004FE4B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841C3AB724C525E4004FE4B0 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		841C3AB824C525E4004FE4B0 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		841C3ABA24C525F9004FE4B0 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		841C3ABB24C525F9004FE4B0 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				841C3AB024C52584004FE4B0 /* main.m */,
+				841C3AB724C525E4004FE4B0 /* Father.h */,
+				841C3AB824C525E4004FE4B0 /* Father.m */,
+				841C3ABA24C525F9004FE4B0 /* Son.h */,
+				841C3ABB24C525F9004FE4B0 /* Son.m */,
 			);
 			path = MsgSendStudy;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841C3ABC24C525F9004FE4B0 /* Son.m in Sources */,
 				841C3AB124C52584004FE4B0 /* main.m in Sources */,
+				841C3AB924C525E4004FE4B0 /* Father.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
