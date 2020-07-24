@@ -25,6 +25,9 @@
 //    NSLog(@"isa: %p ", *(void **)(__bridge void *)object);
     
     
+    //weak底层原理
+    
+    
     
     
 }
